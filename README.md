@@ -21,7 +21,7 @@ To facilitate analysis, the experience attributes were further categorized into 
 The remaining fields in the dataset form the dimensional table, providing detailed customer information. This approach streamlines the data, making it more comprehensible and facilitating the generation of insightful reports
 
 ## Data Modelling
-This is the automated model,the two tables connected because there was already aprimary key-Snow flake schema.
+This is an automated model,the two tables connected because there was already a primary key (ID), It can be referred to as a Snow flake schema.
 
 ![](model.png)
 
@@ -31,6 +31,7 @@ I utilized six canvases in my survey report, incorporating stacked bar charts, c
 ![](Dashboard.png)
 
 INSIGHTS
+
 Out of the total passengers surveyed, 1,028,328 expressed neutral or dissatisfied sentiments about their experience, while 789,992 reported satisfactions. Notably, a significant proportion of the satisfied passengers belonged to the business class, while the majority of those expressing neutral or dissatisfied opinions were in the economy class. 
 
 Canva 6 illustrates the distribution of survey ratings given by passengers for each experience category. The percentages are calculated based on the passenger ID as a reference, providing insights into how different experiences are rated across the surveyed population.
